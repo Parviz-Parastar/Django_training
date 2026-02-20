@@ -10,4 +10,7 @@ def about_views(request):
 def contact_views(request):
     return render(request, 'my_website/contact.html')
 
+def elements_views(request):
+    return render(request, 'my_website/elements.html')
+
 # Create your views here.
